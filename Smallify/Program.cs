@@ -10,11 +10,11 @@ namespace Smallify
 
         public static void Main(string[] args)
         {
-            const string banner = "######################Smallify######################" + 
-                                  "# Will grab the first lines of a file and put it   #" +
-                                  "# in a new file at the original file path with the #" +
-                                  "#          extension prefix of .smallify           #" +
-                                  "####################################################";
+            const string banner = "######################Smallify######################\n" + 
+                                  "# Will grab the first lines of a file and put it   #\n" +
+                                  "# in a new file at the original file path with the #\n" +
+                                  "#          extension prefix of .smallify           #\n" +
+                                  "####################################################\n";
             Console.Write(banner + "\n\n\n");
 
             var filePath = GetFilePath();
